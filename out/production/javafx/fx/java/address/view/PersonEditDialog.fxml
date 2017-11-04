@@ -8,7 +8,8 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="background" stylesheets="@DarkTheme.css" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx.java.address.view.PersonEditDialogController">
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx.java.address.view.PersonEditDialogController">
    <children>
       <GridPane layoutX="171.0" layoutY="3.0" prefHeight="177.0" prefWidth="600.0" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
         <columnConstraints>
@@ -39,6 +40,6 @@
          </children>
       </GridPane>
       <Button layoutX="495.0" layoutY="352.0" mnemonicParsing="false" onAction="#handleCancel" prefWidth="80.0" text="Cancel" />
-      <Button defaultButton="true" layoutX="402.0" layoutY="352.0" mnemonicParsing="false" onAction="#handleOk" prefWidth="80.0" text="Ok" />
+      <Button layoutX="402.0" layoutY="352.0" mnemonicParsing="false" onAction="#handleOk" prefWidth="80.0" text="Ok" />
    </children>
 </AnchorPane>
