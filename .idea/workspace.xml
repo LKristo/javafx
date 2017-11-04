@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c86d78fe-1537-49c1-b11a-409b0fa91249" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/bookicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fx/java/address/view/DarkTheme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javafx/fx/java/address/MainApp.class" afterPath="$PROJECT_DIR$/out/production/javafx/fx/java/address/MainApp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javafx/fx/java/address/view/PersonOverviewController.class" afterPath="$PROJECT_DIR$/out/production/javafx/fx/java/address/view/PersonOverviewController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fx/java/address/model/PersonListWrapper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javafx/fx/java/address/view/PersonOverview.fxml" afterPath="$PROJECT_DIR$/out/production/javafx/fx/java/address/view/PersonOverview.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fx/java/address/MainApp.java" afterPath="$PROJECT_DIR$/src/fx/java/address/MainApp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fx/java/address/view/PersonEditDialog.fxml" afterPath="$PROJECT_DIR$/src/fx/java/address/view/PersonEditDialog.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fx/java/address/view/PersonOverview.fxml" afterPath="$PROJECT_DIR$/src/fx/java/address/view/PersonOverview.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fx/java/address/view/RootLayout.fxml" afterPath="$PROJECT_DIR$/src/fx/java/address/view/RootLayout.fxml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -135,8 +128,8 @@
       <file leaf-file-name="MainApp.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/fx/java/address/MainApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="283">
+              <caret line="218" column="19" lean-forward="false" selection-start-line="218" selection-start-column="19" selection-end-line="218" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -144,12 +137,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BorderPane.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/javafx.graphics/javafx/scene/layout/BorderPane.java">
+      <file leaf-file-name="PersonListWrapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fx/java/address/model/PersonListWrapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1695">
-              <caret line="147" column="13" lean-forward="false" selection-start-line="147" selection-start-column="13" selection-end-line="147" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="210">
+              <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
+                <element signature="e#538#539#0" expanded="true" />
+                <element signature="e#576#577#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -207,6 +206,7 @@
         <option value="$PROJECT_DIR$/src/fx/java/address/view/PersonEditDialogController.java" />
         <option value="$PROJECT_DIR$/src/fx/java/address/view/PersonOverviewController.java" />
         <option value="$PROJECT_DIR$/src/fx/java/address/view/DarkTheme.css" />
+        <option value="$PROJECT_DIR$/src/fx/java/address/model/PersonListWrapper.java" />
         <option value="$PROJECT_DIR$/src/fx/java/address/MainApp.java" />
       </list>
     </option>
@@ -443,12 +443,12 @@
       <workItem from="1509568747407" duration="2245000" />
       <workItem from="1509572826238" duration="3295000" />
       <workItem from="1509628913487" duration="7962000" />
-      <workItem from="1509816412516" duration="1397000" />
+      <workItem from="1509816412516" duration="2051000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17327000" />
+    <option name="totallyTimeSpent" value="17981000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="6" />
@@ -902,10 +902,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/fx/java/address/model/PersonListWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/fx/java/address/MainApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="283">
+          <caret line="218" column="19" lean-forward="false" selection-start-line="218" selection-start-column="19" selection-end-line="218" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
